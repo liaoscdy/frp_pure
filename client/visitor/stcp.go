@@ -22,10 +22,10 @@ import (
 
 	libio "github.com/fatedier/golib/io"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/msg"
+	"frp_pure/pkg/util/util"
+	"frp_pure/pkg/util/xlog"
 )
 
 type STCPVisitor struct {

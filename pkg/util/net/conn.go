@@ -24,7 +24,7 @@ import (
 
 	quic "github.com/quic-go/quic-go"
 
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"frp_pure/pkg/util/xlog"
 )
 
 type ContextGetter interface {

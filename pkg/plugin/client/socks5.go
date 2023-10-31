@@ -21,8 +21,8 @@ import (
 
 	gosocks5 "github.com/armon/go-socks5"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	utilnet "github.com/fatedier/frp/pkg/util/net"
+	v1 "frp_pure/pkg/config/v1"
+	utilnet "frp_pure/pkg/util/net"
 )
 
 func init() {

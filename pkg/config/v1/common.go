@@ -15,7 +15,7 @@
 package v1
 
 import (
-	"github.com/fatedier/frp/pkg/util/util"
+	"frp_pure/pkg/util/util"
 )
 
 type AuthScope string

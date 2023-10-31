@@ -3,7 +3,7 @@ package event
 import (
 	"errors"
 
-	"github.com/fatedier/frp/pkg/msg"
+	"frp_pure/pkg/msg"
 )
 
 var ErrPayloadType = errors.New("error payload type")

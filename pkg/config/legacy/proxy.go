@@ -20,7 +20,7 @@ import (
 
 	"gopkg.in/ini.v1"
 
-	"github.com/fatedier/frp/pkg/config/types"
+	"frp_pure/pkg/config/types"
 )
 
 type ProxyType string

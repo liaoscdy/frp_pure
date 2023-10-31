@@ -23,11 +23,11 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/client/event"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"frp_pure/client/event"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/msg"
+	"frp_pure/pkg/transport"
+	"frp_pure/pkg/util/xlog"
 )
 
 type Manager struct {

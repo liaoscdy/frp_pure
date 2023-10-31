@@ -20,7 +20,7 @@ import (
 
 	"github.com/samber/lo"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
+	v1 "frp_pure/pkg/config/v1"
 )
 
 func ValidateVisitorConfigurer(c v1.VisitorConfigurer) error {

@@ -25,13 +25,13 @@ import (
 	"github.com/fatedier/golib/crypto"
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/client/visitor"
-	"github.com/fatedier/frp/pkg/auth"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"frp_pure/client/proxy"
+	"frp_pure/client/visitor"
+	"frp_pure/pkg/auth"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/msg"
+	"frp_pure/pkg/transport"
+	"frp_pure/pkg/util/xlog"
 )
 
 type Control struct {

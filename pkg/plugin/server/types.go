@@ -15,7 +15,7 @@
 package plugin
 
 import (
-	"github.com/fatedier/frp/pkg/msg"
+	"frp_pure/pkg/msg"
 )
 
 type Request struct {

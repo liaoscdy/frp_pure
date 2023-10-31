@@ -20,11 +20,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/fatedier/frp/pkg/config/types"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/metrics/mem"
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/version"
+	"frp_pure/pkg/config/types"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/metrics/mem"
+	"frp_pure/pkg/util/log"
+	"frp_pure/pkg/util/version"
 )
 
 type GeneralResponse struct {

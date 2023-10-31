@@ -28,10 +28,10 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
-	"github.com/fatedier/frp/pkg/util/log"
+	"frp_pure/client/proxy"
+	"frp_pure/pkg/config"
+	"frp_pure/pkg/config/v1/validation"
+	"frp_pure/pkg/util/log"
 )
 
 type GeneralResponse struct {

@@ -33,16 +33,16 @@ import (
 	quic "github.com/quic-go/quic-go"
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/assets"
-	"github.com/fatedier/frp/pkg/auth"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/log"
-	utilnet "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/version"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"frp_pure/assets"
+	"frp_pure/pkg/auth"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/msg"
+	"frp_pure/pkg/transport"
+	"frp_pure/pkg/util/log"
+	utilnet "frp_pure/pkg/util/net"
+	"frp_pure/pkg/util/util"
+	"frp_pure/pkg/util/version"
+	"frp_pure/pkg/util/xlog"
 )
 
 func init() {

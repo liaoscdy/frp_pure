@@ -20,8 +20,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
+	"frp_pure/pkg/config"
+	"frp_pure/pkg/config/v1/validation"
 )
 
 func init() {

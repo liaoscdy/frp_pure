@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"strings"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/vhost"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/util/util"
+	"frp_pure/pkg/util/vhost"
 )
 
 func init() {

@@ -23,8 +23,8 @@ import (
 	"github.com/samber/lo"
 	"gopkg.in/ini.v1"
 
-	legacyauth "github.com/fatedier/frp/pkg/auth/legacy"
-	"github.com/fatedier/frp/pkg/util/util"
+	legacyauth "frp_pure/pkg/auth/legacy"
+	"frp_pure/pkg/util/util"
 )
 
 // ClientCommonConf is the configuration parsed from ini.

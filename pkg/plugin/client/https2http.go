@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/transport"
-	utilnet "github.com/fatedier/frp/pkg/util/net"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/transport"
+	utilnet "frp_pure/pkg/util/net"
 )
 
 func init() {

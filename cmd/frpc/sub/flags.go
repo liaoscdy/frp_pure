@@ -19,9 +19,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/fatedier/frp/pkg/config/types"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
+	"frp_pure/pkg/config/types"
+	v1 "frp_pure/pkg/config/v1"
+	"frp_pure/pkg/config/v1/validation"
 )
 
 type BandwidthQuantityFlag struct {
